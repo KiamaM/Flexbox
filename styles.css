@@ -48,7 +48,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 15vw;
     height: 25vh;
     color: white;
@@ -80,7 +80,8 @@
     flex-direction: column;
     justify-content: space-around;
     gap: 10px;
-    border: 1px solid blue;
+    padding: 10px;
+    /* border: 1px solid blue; */
     width: 17vw;
     height: 10vh;
     color: white;
@@ -171,4 +172,9 @@
 
 .percd{
     color: hsl(356, 69%, 56%);   
+}
+
+.socials{
+    display: flex;
+    gap: 5px;
 }
