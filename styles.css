@@ -34,9 +34,12 @@
     display: flex;
     justify-content: space-between;
     background-color: hsl(230, 17%, 14%);
-    color: hsl(228, 34%, 66%);
+    color: hsl(228, 34%, 66%);    
+}
 
-    
+.switch{
+    display: flex;
+    gap: 10px;
 }
 
 #toggle{
@@ -62,6 +65,11 @@
     margin-bottom: 0;
     color: white;
 }
+
+.header h3{
+    font-size: 30px;
+}
+
 #toggle{
     width: 50px;
     background-color: aqua;
